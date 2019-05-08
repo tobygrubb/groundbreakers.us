@@ -1,0 +1,58 @@
+@import "compass/css3";
+
+body {
+  padding: 2%;
+  background: #241F13;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-size: 1.5vw;
+  font-weight: 500;
+}
+
+div {
+  overflow: hidden;
+  min-height: 92vh;
+  background-color: #FCD316;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin:0 5%;
+}
+
+img {
+  width: 70%;
+  margin: 1em 0;
+}
+
+#contact:hover {
+  letter-spacing: 0.3em;
+  background-color: #38311a;
+}
+
+#contact {
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+}
+
+button {
+  height: 4em;
+  width: 20vw;
+  padding: 1.5em auto;
+  margin: 4em 0;
+  background-color: #241F13;
+  font-size: .7em;
+  border: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: all 0.2s cubic-bezier(.4,0,.2,1);
+  align: left;
+}
