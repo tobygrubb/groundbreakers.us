@@ -16,14 +16,18 @@ div {
   background-color: #FCD316;
 }
 
-a {
-  background: #241F13;
+#link {
+  color: #241F13;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: underline;
+  text-decoration: underline;
 }
 
-a:hover {
+#link:hover {
   background-color: #38311a;
+  text-decoration: underline;
 }
 
 .container {
