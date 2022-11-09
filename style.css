@@ -16,6 +16,13 @@ div {
   background-color: #FCD316;
 }
 
+a {
+  padding: 2%;
+  background: #241F13;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: underline;
+}
+
 .container {
   display: flex;
   flex-direction: column;
