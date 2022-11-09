@@ -17,10 +17,13 @@ div {
 }
 
 a {
-  padding: 2%;
   background: #241F13;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: underline;
+}
+
+a:hover {
+  background-color: #38311a;
 }
 
 .container {
